@@ -1,0 +1,1 @@
+teste 4 - andamento com o horario, precisa da formatação do tamanho da fonte dentro do bloco e adicionar os dias da semana,mes e ano.

@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+
+*{
+  margin: 0px;
+  justify-content: center;
+  text-align: center;
+}
+
+body{
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  background: #10101E;
+}
+
+.day{
+  font-size: 70px; /*esta fonte é para o dia mes 00 ano */
+  font-family: Roboto Slab;
+  align-items: center;
+  justify-content: center;
+}
+
+.dia{
+  color: yellow;
+  font-size: 70px; /*esta fonte é para as virgulas*/
+  font-family: Roboto Slab;
+  text-align: center;
+  justify-content: center;
+}
+
+.horareal{
+  font-size: 220px; /*esta fonte é para a hora real time*/
+  font-family: teko;
+  color: yellow;
+  text-align: center;
+  justify-content: center;
+}
+
+.horario{
+  border: 4px solid #2e94e3;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content:center;
+  align-items: center;
+  width: 620px;
+  height: 250px;
+  border-radius: 25px;
+}
+
+.horario:hover{
+  background: #2e94e3;
+}
